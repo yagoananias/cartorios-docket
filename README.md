@@ -10,7 +10,7 @@
 
 O projeto foi desenvolvido utilizando as seguintes tecnologias
 
-- [Java](https://www.java.com/)
+- [Java 8](https://www.java.com/)
 - [Spring Boot](https://spring.io/projects/spring-boot)
 - [MySql](https://www.mysql.com/)
 - [Thymeleaf](https://www.thymeleaf.org/)
