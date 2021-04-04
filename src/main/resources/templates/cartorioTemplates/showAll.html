@@ -1,0 +1,36 @@
+<div class="card">
+    <div class="header">
+        <h4 class="title">Cartórios</h4>
+        <p class="category">todos os cartórios cadastrados</p>
+    </div>
+
+    <div class="content table-responsive table-full-width">
+        <table class="table table-striped">
+            <thead>
+            <th>ID</th>
+            <th>Nome do Cartório</th>
+            <th>Endereço</th>
+            <th>Certidões</th>
+            <th></th>
+            <th></th>
+            <th></th>
+            </thead>
+            <tbody>
+            <tr th:each="cartorio : ${cartorios}">
+                <td th:text="${cartorio.id}"></td>
+                <td th:text="${cartorio.nome}"></td>
+                <td th:text="${cartorio.endereco}"></td>
+                <td>
+                    <th:block th:each="certidao : ${cartorio.certidoes}">
+                        <span th:text="${certidao.nome} + ' '">Nome da certidão aqui...</span>
+                    </th:block>
+                </td>
+                <td><a th:href="@{'/cartorio/show/' + ${cartorio.id}}" class="btn btn-primary">Visualizar</a></td>
+                <td><a th:href="@{'/cartorio/' + ${cartorio.id}}" class="btn btn-default">Editar</a></td>
+                <td><a th:href="@{'/cartorio/delete/' + ${cartorio.id}}" class="btn btn-danger">Deletar</a></td>
+            </tr>
+            </tbody>
+        </table>
+
+    </div>
+</div>

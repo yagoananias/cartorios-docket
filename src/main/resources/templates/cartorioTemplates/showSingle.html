@@ -1,0 +1,13 @@
+<div class="card">
+    <div class="header">
+        <h4 th:text="${cartorio.nome}" class="nome">Editar Cartório</h4>
+        <p class="certidao">Detalhes</p>
+    </div>
+
+    <div class="content">
+        <p th:text="${cartorio.endereco}"></p>
+        <th:block th:each="certidao : ${cartorio.certidoes}">
+            <p th:text="${certidao.nome}"></p>
+        </th:block>
+    </div>
+</div>
