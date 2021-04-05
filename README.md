@@ -21,6 +21,12 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
     <img alt="Web" src="https://res.cloudinary.com/yagoananias/image/upload/v1617500357/assets/docket-demo_cl5wrd.gif">
 </h1>
 
+<a id="planejamento"></a>
+
+## :bookmark: Planejamento
+
+Primeiro foi feita a criação das tabelas no banc de dados, seguindo com o a criação das entidades (cartório e certidões), os controllers, as interfaces de services e repository acompanhando com o Postman e por fim as views (front-end) com o Thymeleaf. 
+
 ---
 
 <h4 align="center">
