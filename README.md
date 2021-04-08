@@ -25,7 +25,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 
 ## :bookmark: Planejamento
 
-Primeiro foi feita a criação das tabelas no banc de dados, seguindo com o a criação das entidades (cartório e certidões), os controllers, as interfaces de services e repository acompanhando com o Postman e por fim as views (front-end) com o Thymeleaf. 
+Primeiro foi feita a criação das tabelas no banco de dados, seguindo com a criação das entidades (cartório e certidões), os controllers, as interfaces de services e repository acompanhando com o Postman e por fim as views (front-end) com o Thymeleaf. 
 
 ---
 
